@@ -23,7 +23,7 @@ function ajouterTache(event) {
     });
 
     const deleteIcon = document.createElement('img');
-    deleteIcon.src = '../docs/souriant.png';
+    deleteIcon.src = 'souriant.png';
     deleteIcon.width = 35;
     deleteIcon.height = 35;
     deleteIcon.addEventListener('click', function() {
